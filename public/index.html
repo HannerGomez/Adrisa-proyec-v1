@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ADRISA - Arte gráfico oscuro y diseños exclusivos de edición limitada.">
+    <meta name="theme-color" content="#070707">
+
+    <title>ADRISA | Dark Graphic Art</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800;900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="src/css/styles.css">
+    <link rel="icon" href="assets/favicon/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="container navigation">
+            <a class="logo" href="#inicio" aria-label="ADRISA, página de inicio">
+                ADRISA
+            </a>
+
+            <button
+                class="menu-button"
+                id="menuButton"
+                type="button"
+                aria-label="Abrir menú"
+                aria-expanded="false"
+            >
+                ☰
+            </button>
+
+            <nav aria-label="Navegación principal">
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#catalogo">Diseños</a></li>
+                    <li><a href="#historia">Concepto</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero" id="inicio">
+            <div class="container hero-grid">
+                <div class="hero-copy">
+                    <p class="eyebrow">Colección limitada 2026</p>
+
+                    <h1>
+                        Arte sin
+                        <span>límites</span>
+                    </h1>
+
+                    <p class="hero-description">
+                        Ilustraciones oscuras de alto impacto inspiradas en guerreros,
+                        criaturas, metal y cultura urbana. Diseños creados para destacar.
+                    </p>
+
+                    <div class="hero-actions">
+                        <a class="button" href="#catalogo">Explorar diseños</a>
+                        <a class="button button-outline" href="#contacto">Comprar ahora</a>
+                    </div>
+                </div>
+
+                <div class="hero-art" aria-label="Muestra de los diseños ADRISA">
+                    <figure class="art-panel art-panel-one">
+                        <img src="samurai.png" alt="Calavera samurái con flores">
+                    </figure>
+
+                    <figure class="art-panel art-panel-two">
+                        <img src="rey-trueno.png" alt="Criatura con cornamenta y rayo">
+                    </figure>
+
+                    <span class="art-number" aria-hidden="true">01</span>
+                </div>
+            </div>
+
+            <span class="scroll-label">Desliza para explorar</span>
+        </section>
+
+        <div class="marquee" aria-hidden="true">
+            <div class="marquee-track">
+                <span>Dark art ✦ Edición limitada ✦ Diseño original ✦ ADRISA ✦</span>
+                <span>Dark art ✦ Edición limitada ✦ Diseño original ✦ ADRISA ✦</span>
+                <span>Dark art ✦ Edición limitada ✦ Diseño original ✦ ADRISA ✦</span>
+                <span>Dark art ✦ Edición limitada ✦ Diseño original ✦ ADRISA ✦</span>
+            </div>
+        </div>
+
+        <section class="catalog" id="catalogo">
+            <div class="container">
+                <div class="section-heading">
+                    <div>
+                        <p class="eyebrow">Catálogo seleccionado</p>
+                        <h2>Diseños que hablan por vos</h2>
+                    </div>
+
+                    <p>
+                        Cada pieza combina líneas agresivas, contraste monocromático
+                        y una identidad visual pensada para impresión textil.
+                    </p>
+                </div>
+
+                <div class="filters" aria-label="Filtros del catálogo">
+                    <button class="filter-button active" type="button" data-filter="all">
+                        Todos
+                    </button>
+                    <button class="filter-button" type="button" data-filter="guerreros">
+                        Guerreros
+                    </button>
+                    <button class="filter-button" type="button" data-filter="criaturas">
+                        Criaturas
+                    </button>
+                    <button class="filter-button" type="button" data-filter="dark">
+                        Dark
+                    </button>
+                    <button class="filter-button" type="button" data-filter="limited">
+                        Limited
+                    </button>
+                </div>
+
+                <div class="product-grid" id="productos-grid"></div>
+            </div>
+        </section>
+
+        <section class="manifesto" id="historia">
+            <div class="container">
+                <div class="manifesto-content">
+                    <p class="eyebrow">La esencia ADRISA</p>
+
+                    <h2>Oscuro no significa invisible</h2>
+
+                    <p>
+                        ADRISA nace para convertir ilustraciones intensas en piezas
+                        que expresan identidad. Cada trazo está pensado para conservar
+                        su fuerza, tanto en una exhibición como sobre una prenda.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="details" aria-label="Información de compra">
+            <div class="container">
+                <div class="details-grid">
+                    <article class="detail">
+                        <span class="detail-number">01</span>
+                        <h3>Arte original</h3>
+                        <p>Composiciones visuales creadas con una identidad propia.</p>
+                    </article>
+
+                    <article class="detail">
+                        <span class="detail-number">02</span>
+                        <h3>Edición limitada</h3>
+                        <p>Producciones controladas para mantener cada pieza especial.</p>
+                    </article>
+
+                    <article class="detail">
+                        <span class="detail-number">03</span>
+                        <h3>Talles disponibles</h3>
+                        <p>Consulta disponibilidad en S, M, L y XL antes de comprar.</p>
+                    </article>
+
+                    <article class="detail">
+                        <span class="detail-number">04</span>
+                        <h3>Envíos nacionales</h3>
+                        <p>Coordinación personalizada y seguimiento por WhatsApp.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact" id="contacto">
+            <div class="container">
+                <div class="contact-box">
+                    <div>
+                        <p class="eyebrow">Contacto directo</p>
+                        <h2>¿Encontraste tu diseño?</h2>
+                        <p>Elegí tu talle, escribinos por WhatsApp y coordinamos el envío.</p>
+                    </div>
+
+                    <a
+                        id="whatsapp-cta"
+                        href="#"
+                        class="button whatsapp-button"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        Comprar por WhatsApp
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container footer-content">
+            <a class="logo" href="#inicio">ADRISA</a>
+
+            <div class="footer-copy">
+                <p>© <span id="year"></span> ADRISA. Todos los derechos reservados.</p>
+                <p>Diseños originales de edición limitada.</p>
+            </div>
+        </div>
+    </footer>
+
+    <div
+        class="modal"
+        id="imageModal"
+        role="dialog"
+        aria-modal="true"
+        aria-label="Vista ampliada del diseño"
+    >
+        <button class="modal-close" id="modalClose" type="button" aria-label="Cerrar">
+            ×
+        </button>
+
+        <img id="modalImage" src="" alt="Diseño ampliado">
+    </div>
+
+    <script src="src/js/catalog.js"></script>
+</body>
+</html>

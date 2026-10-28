@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "nombre": "Horned Fantasy - Mostaza",
+    "precio": 85000,
+    "talles": ["S", "M", "L", "XL"],
+    "descripcion": "Camiseta mostaza con diseño de personaje fantástico y símbolo de rayo. Edición limitada.",
+    "imagen_diseno": "",
+    "imagen_modelo": "/assets/modelos/modelo-01.jpg",
+    "categoria": "criaturas dark limited"
+  },
+  {
+    "id": 2,
+    "nombre": "Skull Flowers - Azul Marino",
+    "precio": 85000,
+    "talles": ["S", "M", "L", "XL"],
+    "descripcion": "Camiseta azul marino con estampa de calavera rodeada de flores en blanco. Estilo urbano y edición limitada.",
+    "imagen_diseno": "",
+    "imagen_modelo": "/assets/modelos/modelo-02.jpg",
+    "categoria": "dark"
+  },
+  {
+    "id": 3,
+    "nombre": "Street Demon - Rojo/Gris",
+    "precio": 85000,
+    "talles": ["S", "M", "L", "XL"],
+    "descripcion": "Diseño urbano con estampa de cara demoníaca. Disponible en rojo y gris. Edición limitada.",
+    "imagen_diseno": "",
+    "imagen_modelo": "/assets/modelos/modelo-03.jpg",
+    "categoria": "dark limited"
+  },
+  {
+    "id": 4,
+    "nombre": "Dragon Skull - Navy",
+    "precio": 85000,
+    "talles": ["S", "M", "L", "XL"],
+    "descripcion": "Camiseta azul marino con diseño de calavera y dragón. Estilo oscuro y detallado. Edición limitada.",
+    "imagen_diseno": "",
+    "imagen_modelo": "/assets/modelos/modelo-04.jpg",
+    "categoria": "criaturas dark"
+  },
+  {
+    "id": 5,
+    "nombre": "Adrisa - Japonés Dark",
+    "precio": 85000,
+    "talles": ["S", "M", "L", "XL"],
+    "descripcion": "Diseño exclusivo en estilo japonés dark: samurai, oni y calavera con detalles florales. Edición limitada.",
+    "imagen_diseno": "",
+    "imagen_modelo": "/assets/modelos/modelo-05.jpg",
+    "categoria": "guerreros dark limited"
+  }
+]
